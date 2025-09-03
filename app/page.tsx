@@ -1,6 +1,8 @@
 "use client"; // <--- must be the very first line
 
-import React from "react";
+import { Typewriter } from "react-simple-typewriter";
+
+
 import { ReactTyped } from "react-typed";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star, Rocket, GraduationCap, Lightbulb } from "lucide-react";
@@ -16,7 +18,11 @@ interface HeroSectionProps {
     onNavigate?: (page: string) => void;
 }
 
+
+
+
 const Page = ({ onNavigate }: HeroSectionProps) => {
+
     return (
 
         <>
@@ -66,6 +72,18 @@ const Page = ({ onNavigate }: HeroSectionProps) => {
                                 showCursor={true}
 
                                 cursorChar="!"/>
+                        </h1>
+
+                        <h1 className="text-6xl lg:text-7xl font-bold mb-6 heading-gradient">
+                            <Typewriter
+                                words={["Elite Opportunities for High School Leaders"]}
+                                loop={1}           // Only type once
+                                cursor             // Show cursor
+                                cursorStyle="!"    // Cursor character
+                                typeSpeed={50}     // Typing speed
+                                deleteSpeed={0}    // No deletion
+                                delaySpeed={0}     // No delay before deleting
+                            />
                         </h1>
 
 
