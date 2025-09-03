@@ -27,6 +27,7 @@ const AboutPage = ({ onNavigate }: AboutPageProps) => {
                                 typeSpeed={50}
                                 backSpeed={30}
                                 showCursor={true}
+                                loop={true}
                                 cursorChar="|"/>
                         </h1>
                         <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
