@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="454d1f51-040a-414c-9792-27a768eec999" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/events/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/AnimatedShapes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/FloatingGeometry.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useAuth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supabase/functions/server/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supabase/functions/server/kv_store.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/supabase/info.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ContactSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ContactSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +90,7 @@
       <workItem from="1756546273460" duration="9916000" />
       <workItem from="1756608935037" duration="8908000" />
       <workItem from="1756738012941" duration="4166000" />
-      <workItem from="1756900023993" duration="3470000" />
+      <workItem from="1756900023993" duration="4563000" />
     </task>
     <servers />
   </component>

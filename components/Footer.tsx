@@ -6,32 +6,13 @@ import Image from "next/image";
 
 const Footer = () => {
     const quickLinks = [
-        { label: 'Home', href: '#home' },
-        { label: 'About', href: '#about' },
-        { label: 'Programs', href: '#programs' },
-        { label: 'Events', href: '#events' },
-        { label: 'Contact', href: '#contact' },
+        { label: "Home", href: "/" },
+        { label: "About", href: "/about" },
+        { label: "Events", href: "/events" },
+        { label: "Contact", href: "/contact" },
     ];
 
-    const programs = [
-        { label: 'Tech Fellowship', href: '#' },
-        { label: 'Policy Innovation', href: '#' },
-        { label: 'Entrepreneurship', href: '#' },
-        { label: 'Summer Programs', href: '#' },
-    ];
 
-    const resources = [
-        { label: 'Application Guide', href: '#' },
-        { label: 'Success Stories', href: '#' },
-        { label: 'Blog', href: '#' },
-        { label: 'FAQ', href: '#' },
-    ];
-
-    const legal = [
-        { label: 'Privacy Policy', href: '#' },
-        { label: 'Terms of Service', href: '#' },
-        { label: 'Cookie Policy', href: '#' },
-    ];
 
     const socialLinks = [
         { icon: <Instagram className="w-5 h-5" />, href: '#', label: 'Instagram' },
