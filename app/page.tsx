@@ -74,17 +74,7 @@ const Page = ({ onNavigate }: HeroSectionProps) => {
                                 cursorChar="!"/>
                         </h1>
 
-                        <h1 className="text-6xl lg:text-7xl font-bold mb-6 heading-gradient">
-                            <Typewriter
-                                words={["Elite Opportunities for High School Leaders"]}
-                                loop={1}           // Only type once
-                                cursor             // Show cursor
-                                cursorStyle="!"    // Cursor character
-                                typeSpeed={50}     // Typing speed
-                                deleteSpeed={0}    // No deletion
-                                delaySpeed={0}     // No delay before deleting
-                            />
-                        </h1>
+
 
 
                         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-slide-in-right">
