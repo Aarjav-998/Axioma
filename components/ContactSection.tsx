@@ -22,7 +22,7 @@ const ContactSection = ({onNavigate }: ContactSectionProps) => {
             title: "Email Us",
             subtitle: "Get a response within 24 hours",
             description: "We love connecting with ambitious students! Send us an email and we'll get back to you with personalized guidance.",
-            contact: "hello@axioma.org",
+            contact: "axioma.events.official@gmail.com",
             icon: <Mail className="w-8 h-8" />,
             action: "Send Email",
             actionIcon: <Mail className="w-5 h-5 text-white" />
@@ -32,7 +32,7 @@ const ContactSection = ({onNavigate }: ContactSectionProps) => {
             title: "Call Us",
             subtitle: "Monday to Friday, 9AM - 6PM EST",
             description: "Prefer to talk? Give us a call during business hours for immediate assistance with your questions.",
-            contact: "+1 (555) 123-4567",
+            contact: " +91 9773615117 ",
             icon: <Phone className="w-8 h-8" />,
             action: "Call Now",
             actionIcon: <Phone className="w-5 h-5 text-white" />

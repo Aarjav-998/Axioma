@@ -59,16 +59,13 @@ const Footer = () => {
                         <div className="space-y-3 mb-6">
                             <div className="flex items-center text-sm text-muted-foreground hover:text-primary transition-colors duration-300">
                                 <Mail className="w-4 h-4 mr-2" />
-                                hello@axioma.org
+                                axioma.events.official@gmail.com
                             </div>
                             <div className="flex items-center text-sm text-muted-foreground hover:text-primary transition-colors duration-300">
                                 <Phone className="w-4 h-4 mr-2" />
-                                +1 (555) 123-4567
+                                +91 9773615117
                             </div>
-                            <div className="flex items-center text-sm text-muted-foreground hover:text-primary transition-colors duration-300">
-                                <MapPin className="w-4 h-4 mr-2" />
-                                San Francisco, CA
-                            </div>
+
                         </div>
 
                         <div className="flex space-x-3">
@@ -102,63 +99,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Programs */}
-                    <div>
-                        <h4 className="font-semibold mb-4">Programs</h4>
-                        <ul className="space-y-2">
-                            {programs.map((program, index) => (
-                                <li key={index}>
-                                    <a
-                                        href={program.href}
-                                        className="text-muted-foreground hover:text-primary transition-colors duration-300 text-sm hover:translate-x-1 inline-block"
-                                    >
-                                        {program.label}
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
 
-                    {/* Resources */}
-                    <div>
-                        <h4 className="font-semibold mb-4">Resources</h4>
-                        <ul className="space-y-2 mb-6">
-                            {resources.map((resource, index) => (
-                                <li key={index}>
-                                    <a
-                                        href={resource.href}
-                                        className="text-muted-foreground hover:text-primary transition-colors duration-300 text-sm hover:translate-x-1 inline-block"
-                                    >
-                                        {resource.label}
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
-
-                        <h4 className="font-semibold mb-4">Legal</h4>
-                        <ul className="space-y-2">
-                            {legal.map((item, index) => (
-                                <li key={index}>
-                                    <a
-                                        href={item.href}
-                                        className="text-muted-foreground hover:text-primary transition-colors duration-300 text-sm hover:translate-x-1 inline-block"
-                                    >
-                                        {item.label}
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                </div>
-
-                {/* Newsletter Signup */}
-                <div className="border-t pt-8 mb-8">
-                    <div className="max-w-md mx-auto text-center">
-                        <h4 className="font-semibold mb-4">Stay Updated</h4>
-                        <p className="text-muted-foreground text-sm mb-4">
-                            Get the latest updates on new programs and opportunities
-                        </p>
-                    </div>
                 </div>
 
                 {/* Copyright */}
