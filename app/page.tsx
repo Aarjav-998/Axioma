@@ -64,7 +64,7 @@ const Page = ({ onNavigate }: HeroSectionProps) => {
                                 typeSpeed={50}
                                 backSpeed={30}
                                 showCursor={true}
-                                loop={true}
+
                                 cursorChar="!"/>
                         </h1>
 

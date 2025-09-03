@@ -177,7 +177,7 @@ const EventsPage = ({
                                 typeSpeed={50}
                                 backSpeed={30}
                                 showCursor={true}
-                                loop={true}
+
                                 cursorChar="."
 
                             />
