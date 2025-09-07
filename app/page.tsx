@@ -30,7 +30,7 @@ const Page = ({ onNavigate }: HeroSectionProps) => {
             <FloatingGeometry variant="dense"/>
             <section
                 id="home"
-                className="min-h-screen flex items-center justify-center relative overflow-hidden"
+                className="min-h-screen flex items-center justify-center relative overflow-hidden pt-14"
             >
                 <AnimatedShapes variant="hero"/>
                 <FloatingGeometry variant="dense"/>
@@ -77,7 +77,7 @@ const Page = ({ onNavigate }: HeroSectionProps) => {
 
 
 
-                        <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-slide-in-right">
+                        <p className="text-2xl pt-8 pb-6 text-muted-foreground mb-8 max-w-2xl mx-auto animate-slide-in-right">
                             Axioma provides high school students with impactful, real-world
                             opportunities in diverse fields like entrepreneurship, policy, tech,
                             and research. Through fellowships, competitions, and mentorship, we
@@ -109,7 +109,7 @@ const Page = ({ onNavigate }: HeroSectionProps) => {
                     </div>
 
                     {/* Next Sections */}
-                    <div className="relative tech-pattern-background pt-24 max-md:pt-16 max-sm:pt-14">
+                    <div className="relative tech-pattern-background pt-36 max-md:pt-16 max-sm:pt-14">
                         <AnimatedShapes/>
                         <FloatingGeometry variant="dense"/>
                         <EliteOpportunitiesSection onNavigate={onNavigate}/>

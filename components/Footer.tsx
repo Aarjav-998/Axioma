@@ -15,10 +15,10 @@ const Footer = () => {
 
 
     const socialLinks = [
-        { icon: <Instagram className="w-5 h-5" />, href: '#', label: 'Instagram' },
-        { icon: <Twitter className="w-5 h-5" />, href: '#', label: 'Twitter' },
-        { icon: <Linkedin className="w-5 h-5" />, href: '#', label: 'LinkedIn' },
-        { icon: <Youtube className="w-5 h-5" />, href: '#', label: 'YouTube' },
+        { icon: <Instagram className="w-5 h-5" />, href: 'https://www.instagram.com/axioma.officiall?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', label: 'Instagram' },
+
+        { icon: <Linkedin className="w-5 h-5" />, href: 'http://www.linkedin.com/company/axioma-official', label: 'LinkedIn' },
+
     ];
 
     return (

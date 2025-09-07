@@ -30,7 +30,7 @@ const ContactSection = ({onNavigate }: ContactSectionProps) => {
         {
             id: 2,
             title: "Call Us",
-            subtitle: "Monday to Friday, 9AM - 6PM EST",
+            subtitle: "Monday to Friday, 9AM - 6PM IST",
             description: "Prefer to talk? Give us a call during business hours for immediate assistance with your questions.",
             contact: " +91 9773615117 ",
             icon: <Phone className="w-8 h-8" />,
@@ -137,7 +137,7 @@ const ContactSection = ({onNavigate }: ContactSectionProps) => {
                     <motion.h2
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6 }}
+                        transition={{ duration: 0.3 }}
                         className="text-4xl md:text-5xl font-bold mb-6 heading-gradient"
                     >
                         Let&#39;s Talk!
@@ -166,8 +166,8 @@ const ContactSection = ({onNavigate }: ContactSectionProps) => {
                                     animate="center"
                                     exit="exit"
                                     transition={{
-                                        x: { type: "spring", stiffness: 600, damping: 60, duration: 0.15 },
-                                        opacity: { duration: 0.1 }
+                                        x: { type: "tween", ease: "easeInOut", duration: 0.25 },
+                                        opacity: { duration: 0.15 }
                                     }}
                                     className="absolute inset-0 flex items-center justify-center"
                                 >

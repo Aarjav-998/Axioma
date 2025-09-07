@@ -1,6 +1,16 @@
 "use client";
 
-import { Lightbulb, Megaphone, Rocket, GraduationCap, Users, Zap, ChevronRight } from 'lucide-react';
+import {
+    Lightbulb,
+
+    Rocket,
+
+    Zap,
+    ChevronRight,
+    HeartPulse,
+    Scale,
+    Microscope, Handshake, Palette, Banknote, Building2
+} from 'lucide-react';
 
 interface EliteOpportunitiesSectionProps {
     onNavigate?: (page: string) => void;
@@ -18,44 +28,70 @@ const EliteOpportunitiesSection = ({ onNavigate }: EliteOpportunitiesSectionProp
         },
         {
             id: 'product',
-            title: 'Product Evangelism',
-            description: 'Ignite customer excitement and drive product adoption through strategic evangelist programs.',
-            icon: <Megaphone className="w-6 h-6 text-orange-500" />,
+            title: 'Medical & Healthcare',
+            description: 'Pioneer breakthroughs in patient care, biotechnology, and medical research to shape the future of wellness.',
+            icon: <HeartPulse className="w-6 h-6 text-green-500" />,
             featured: false,
             gradient: 'from-orange-400 to-red-500'
         },
         {
             id: 'startup',
-            title: 'StartUp Pitches',
-            description: 'Find the best startups in your industry to partner with and co-develop innovative solutions.',
-            icon: <Rocket className="w-6 h-6 text-red-500" />,
+            title: 'Legal Tech & Innovation',
+            description: 'Transform the legal landscape with new technologies for case management, legal research, and access to justice.',
+            icon: <Scale className="w-6 h-6 text-blue-900" />,
             featured: false,
             gradient: 'from-orange-400 to-red-500'
         },
         {
             id: 'student',
-            title: 'Student Challenges',
-            description: 'Explore innovative ideas from student minds and identify fresh perspectives for your business.',
-            icon: <GraduationCap className="w-6 h-6 text-green-500" />,
+            title: 'Entrepreneurship & Startups',
+            description: 'Launch your next venture. Pitch groundbreaking ideas, build a business plan, and connect with investors and mentors.',
+            icon: <Rocket className="w-6 h-6 text-red-500" />,
             featured: false,
             gradient: 'from-orange-400 to-red-500'
         },
         {
             id: 'recruitment',
-            title: 'Recruitment',
-            description: 'Connect with students globally to identify the brightest young minds and their genius.',
-            icon: <Users className="w-6 h-6 text-purple-500" />,
+            title: 'Scientific Research',
+            description: 'Drive discovery across physics, chemistry, and biology. Propose novel experiments and challenge existing paradigms.',
+            icon: <Microscope className="w-6 h-6 text-purple-500" />,
+            featured: false,
+            gradient: 'from-orange-400 to-red-500'
+        },
+
+        {
+            id: 'arts & culture',
+            title: 'Arts & Culture',
+            description: 'Innovate in the creative industries. Explore new forms of artistic expression, digital media, and cultural preservation.',
+            icon: <Palette  className="w-6 h-6 text-chart-3" />,
             featured: false,
             gradient: 'from-orange-400 to-red-500'
         },
         {
             id: 'hackathon',
-            title: 'Internal Hackathon',
-            description: 'Empower your workforce to drive change! Gather employee insights and foster innovation.',
-            icon: <Zap className="w-6 h-6 text-yellow-500" />,
+            title: 'Social Impact & Non-Profit',
+            description: 'Develop sustainable solutions to pressing social and environmental problems. Create initiatives that make a difference.',
+            icon: <Handshake className="w-6 h-6 text-amber-600" />,
             featured: false,
             gradient: 'from-orange-400 to-red-500'
-        }
+        },
+        {
+            id: 'Finance & Economics',
+            title: 'Finance & Economics',
+            description: 'Disrupt the world of finance with new economic models, investment strategies, and financial technologies.',
+            icon: <Banknote className="w-6 h-6 text-green-800" />,
+            featured: false,
+            gradient: 'from-orange-400 to-red-500'
+        },
+        {
+            id: 'Engineering & Infrastructure',
+            title: 'Engineering & Infrastructure',
+            description: 'Design and build the future. Tackle challenges in civil, mechanical, and electrical engineering to create a better world.',
+            icon: <Building2 className="w-6 h-6 text-gray-600" />,
+            featured: false,
+            gradient: 'from-orange-400 to-red-500'
+        },
+
     ];
 
     return (
